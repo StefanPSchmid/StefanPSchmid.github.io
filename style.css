@@ -57,7 +57,12 @@ footer {
     align-items: flex-start;
 }
 
+.content-section .text-section {
+    width: 55%; /* Adjust as needed */
+}
+
 .content-section img {
-    max-width: 40%; /* Adjust as needed */
+    width: 40%; /* Adjust as needed */
+    height: auto;
     margin-left: 20px;
 }
