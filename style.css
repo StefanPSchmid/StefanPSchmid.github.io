@@ -133,3 +133,8 @@ table, th, td {
     margin-left: 30px;  /* Adjust these values as needed */
     margin-right: 30px;
 }
+
+table td a {
+    color: black;
+    text-decoration: underline;
+}
