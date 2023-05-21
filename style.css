@@ -124,6 +124,7 @@ table {
 table img {
     width: 100%;
     height: auto;
+    margin-right: 5px;
 }
 
 table, th, td {
