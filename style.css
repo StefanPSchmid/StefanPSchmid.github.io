@@ -115,24 +115,3 @@ footer a:hover {
 .social-icons a:hover {
     color: #007bff;
 }
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-td:nth-child(1) {
-    width: 30%;
-}
-
-td:nth-child(2) {
-    width: 60%;
-}
-
-td:nth-child(3) {
-    width: 10%;
-}
-
-table, th, td {
-    border: none;
-}
