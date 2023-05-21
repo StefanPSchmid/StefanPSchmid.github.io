@@ -124,9 +124,18 @@ table {
 table img {
     width: 100%;
     height: auto;
-    margin-right: 5px;
 }
+
+.publication-image {
+    width: 45%;
+    height: auto;
+}
+
 
 table, th, td {
     border: none;
+}
+.citation {
+    margin-left: 20px;  /* Adjust these values as needed */
+    margin-right: 20px;
 }
