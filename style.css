@@ -76,3 +76,14 @@ footer {
 .social-icons a:hover {
     color: #007bff;
 }
+
+nav ul li a, footer a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: normal;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover, footer a:hover {
+    background-color: #f0f0f0;
+}
