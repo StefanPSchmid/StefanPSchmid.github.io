@@ -121,16 +121,9 @@ table {
     border-collapse: collapse;
 }
 
-td:nth-child(1) {
+table img {
     width: 30%;
-}
-
-td:nth-child(2) {
-    width: 60%;
-}
-
-td:nth-child(3) {
-    width: 10%;
+    height: auto;
 }
 
 table, th, td {
