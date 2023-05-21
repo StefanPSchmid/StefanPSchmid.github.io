@@ -47,22 +47,17 @@ main {
     margin-top: 20px;  /* Add some space between the image and text on smaller screens */
 }
 
-.text-content {
+.content-section {
     display: flex;
     flex-direction: column;
 }
 
-.text {
+.left-content {
     order: 1;
 }
 
 .image-container {
     order: 2;
-    width: 100%;  /* The image container takes the full width on smaller screens */
-}
-
-.extra-content {
-    order: 3;
 }
 
 footer {
@@ -74,27 +69,14 @@ footer {
 /* For larger screens */
 @media (min-width: 768px) {
     .content-section {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .text-content {
-        display: flex;
-        flex: 1;
         flex-direction: row;
     }
 
-    .text {
-        order: 1;
-        flex: 1;
+    .left-content {
+        flex: 2;
     }
 
     .image-container {
-        order: 2;
-        flex: 1;
-    }
-
-    .extra-content {
         flex: 1;
     }
 
