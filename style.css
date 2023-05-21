@@ -42,7 +42,7 @@ main {
 }
 
 .about-image {
-    width: 100%;
+    width: 95%;
     height: auto;  /* Maintain aspect ratio */
     margin-top: 20px;  /* Add some space between the image and text on smaller screens */
 }
