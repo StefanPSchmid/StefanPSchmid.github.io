@@ -43,8 +43,22 @@ main {
 
 .about-image {
     width: 100%;
-    float: right;
-    margin-left: 20px;
+    height: auto;  /* Maintain aspect ratio */
+    margin-top: 20px;  /* Add some space between the image and text on smaller screens */
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    order: 1;
+}
+
+.image-container {
+    order: 2;
+    width: 100%;  /* The image container takes the full width on smaller screens */
 }
 
 footer {
@@ -55,16 +69,29 @@ footer {
 
 /* For larger screens */
 @media (min-width: 768px) {
+    .about-me {
+        flex-direction: row;
+    }
+
+    .text {
+        order: 1;
+        flex: 0 0 60%;  /* The text takes up 60% of the width on larger screens */
+    }
+
+    .image-container {
+        order: 2;
+        flex: 0 0 40%;  /* The image container takes up 40% of the width on larger screens */
+    }
+
+    .about-image {
+        margin-top: 0;  /* Remove the space between the image and text on larger screens */
+    }
     main {
         margin: 40px 20%;
     }
     
     nav ul li a {
         font-size: 1.4em;
-    }
-    
-    .about-image {
-        width: 40%;
     }
 }
 
