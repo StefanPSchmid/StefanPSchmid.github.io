@@ -47,7 +47,7 @@ main {
     margin-top: 20px;  /* Add some space between the image and text on smaller screens */
 }
 
-.about-me {
+.text-content {
     display: flex;
     flex-direction: column;
 }
@@ -69,8 +69,32 @@ footer {
 
 /* For larger screens */
 @media (min-width: 768px) {
-    .about-me {
-        flex-direction: row;
+    .content-section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .text-content {
+        display: flex;
+        width: 100%;
+    }
+
+    .text-content .text {
+        flex: 1;
+    }
+
+    .text-content .image-container {
+        flex: 1;
+    }
+
+    section {
+        width: 50%;
+        padding: 1em;
+    }
+
+    .text-content .about-image {
+        width: 100%;
+        height: auto;
     }
 
     .text {
