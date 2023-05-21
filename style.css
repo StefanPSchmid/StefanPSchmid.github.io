@@ -122,10 +122,9 @@ table {
 }
 
 table img {
-    width: 100%;
+    width: 130%;
     height: auto;
 }
-
 
 table, th, td {
     border: none;
