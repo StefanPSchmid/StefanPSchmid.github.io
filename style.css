@@ -184,3 +184,14 @@ table td a {
     width: 80%;
     padding-left: 20px;
 }
+
+@media (max-width: 768px) {
+    .left-content-CV {
+        display: none;
+    }
+
+    .right-content-CV {
+        width: 100%;
+        padding-left: 0;
+    }
+}
