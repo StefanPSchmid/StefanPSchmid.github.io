@@ -140,7 +140,7 @@ table td a {
 }
 
 table td {
-    padding-bottom: 20px; /* Adjust as needed */
+    padding-bottom: 40px; /* Adjust as needed */
 }
 
 .publication-link {
@@ -197,6 +197,7 @@ table td {
 
 .right-content-CV table td:last-child {
     width: 15%;
+    padding-left: 10px;
 }
 
 .CV-link {
