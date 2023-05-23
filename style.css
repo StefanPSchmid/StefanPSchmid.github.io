@@ -139,6 +139,10 @@ table td a {
     text-decoration: underline;
 }
 
+table td {
+    padding-bottom: 20px; /* Adjust as needed */
+}
+
 .publication-link {
     background-color: #ffffff;
     display: inline-block;
