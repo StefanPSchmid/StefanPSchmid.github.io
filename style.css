@@ -151,4 +151,20 @@ table td a {
     border-color: black;
     background-color: #f2f2f2;
   }
-  
+ 
+  .content-section-CV {
+    display: flex;
+}
+
+.left-content-CV {
+    width: 20%;
+    position: sticky;
+    top: 10px;
+    height: 100vh;
+    overflow: auto;
+}
+
+.right-content-CV {
+    width: 80%;
+    padding-left: 20px;
+}
