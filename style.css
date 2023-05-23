@@ -178,12 +178,32 @@ table td a {
     display: block; /* Make the links stack vertically */
 }
 
-
-
 .right-content-CV {
     width: 80%;
     padding-left: 20px;
 }
+
+.right-content-CV table {
+    width: 100%;
+}
+
+.right-content-CV table td:first-child {
+    width: 85%;
+}
+
+.right-content-CV table td:last-child {
+    width: 15%;
+}
+
+.CV-link {
+    color: inherit;  /* Makes the link look like normal text */
+    text-decoration: none;  /* Removes the underline */
+}
+
+.CV-link:hover {
+    background-color: #f2f2f2;  /* Changes the background color when hovered */
+}
+
 
 @media (max-width: 768px) {
     .left-content-CV {
