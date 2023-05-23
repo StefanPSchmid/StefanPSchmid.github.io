@@ -161,7 +161,7 @@ table td {
 }
 
 .left-content-CV {
-    width: 20%;
+    width: 12%;
     position: sticky;
     top: 10px;
     height: 100vh;
@@ -183,7 +183,7 @@ table td {
 }
 
 .right-content-CV {
-    width: 80%;
+    width: 88%;
     padding-left: 20px;
 }
 
