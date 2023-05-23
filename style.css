@@ -173,7 +173,7 @@ table td a {
     position: fixed;
 }
 
-.left-content-CV ul li {
+.left-content-CV nav ul li {
     padding: 10px 0; /* Added for spacing between list items */
     display: block; /* Make the links stack vertically */
 }
